@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b531e882936eb21052977d1efaba10ff" label="Asset" max_length="40" name="x_1335393_smart_0_asset" type="collection">
+        <element label="Warranty End" max_length="255" name="warranty_end" type="glide_date"/>
+        <element choice="1" label="Lifecycle Stage" max_length="40" name="lifecycle_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Use" sequence="3" value="In Use"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="Approved"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="4" value="Maintenance"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Assigned" sequence="2" value="Assigned"/>
+                <element inactive_on_update="false" label="Retired" sequence="5" value="Retired"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Asset Tag" max_length="40" name="asset_tag" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Assigned_to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Active" max_length="255" name="active" type="boolean"/>
+        <element label="Purchase Date" max_length="255" name="purchase_date" type="glide_date"/>
+        <element choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

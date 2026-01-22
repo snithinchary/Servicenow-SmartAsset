@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6fa7898293a2f21052977d1efaba10e8" label="Asset Request Table" max_length="40" name="x_1335393_smart_0_asset_request_table" type="collection">
-        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element choice="1" label="Request Status" max_length="40" name="request_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Rejected" sequence="700" value="Rejected"/>
@@ -13,7 +13,7 @@
             </choice>
         </element>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
-        <element choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+        <element choice="1" label="Asset Type" mandatory="true" max_length="40" name="asset_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cloud Resource" sequence="700" value="Cloud Resource"/>
                 <element inactive_on_update="false" label="Mechanical Equipment" sequence="600" value="Mechanical Equipment"/>

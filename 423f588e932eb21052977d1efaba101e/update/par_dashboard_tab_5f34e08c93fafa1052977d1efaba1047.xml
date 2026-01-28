@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Smart Asset Lifecycle Dashboard">6db3e80c93fafa1052977d1efaba10ea</dashboard>
+        <name>SALD</name>
+        <order>1</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:32:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f34e08c93fafa1052977d1efaba1047</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SALD</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>par_dashboard_tab_5f34e08c93fafa1052977d1efaba1047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 05:06:46</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

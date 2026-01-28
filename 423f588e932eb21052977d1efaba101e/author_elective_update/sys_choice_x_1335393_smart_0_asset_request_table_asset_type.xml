@@ -20,133 +20,114 @@
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Non-IT Asset</label>
+            <label>Laptop</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>100</sequence>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:45:53</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:46:06</sys_updated_on>
-            <value>Non-IT Asset</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Laptop</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>IT Asset</label>
+            <label>Mobile</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>200</sequence>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:45:37</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:46:09</sys_updated_on>
-            <value>IT Asset</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Mobile</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Medical Equipment</label>
+            <label>Printer</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>300</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:46:24</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:47:35</sys_updated_on>
-            <value>Medical Equipment</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Printer</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Electrical Equipment</label>
+            <label>Monitor</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>400</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:46:47</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:47:39</sys_updated_on>
-            <value>Electrical Equipment</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Monitor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Software</label>
+            <label>Tablet</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>500</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:47:12</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:47:42</sys_updated_on>
-            <value>Software</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Tablet</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>asset_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Mechanical Equipment</label>
+            <label>Keyboard</label>
             <language>en</language>
             <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>600</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:46:59</sys_created_on>
+            <sys_created_on>2026-01-22 11:45:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:47:45</sys_updated_on>
-            <value>Mechanical Equipment</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>asset_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Cloud Resource</label>
-            <language>en</language>
-            <name>x_1335393_smart_0_asset_request_table</name>
-            <sequence>700</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-21 10:47:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-21 10:47:47</sys_updated_on>
-            <value>Cloud Resource</value>
+            <sys_updated_on>2026-01-22 11:45:24</sys_updated_on>
+            <value>Keyboard</value>
         </sys_choice>
     </sys_choice>
 </record_update>

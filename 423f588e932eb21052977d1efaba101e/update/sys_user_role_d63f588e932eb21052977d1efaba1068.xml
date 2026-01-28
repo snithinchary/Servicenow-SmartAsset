@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Default user role</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>M8raQ/tPkXFcHwssqaiRo0AqFjYOX7jlZRiR2GxYcYM=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1335393_smart_0.u_asset_user</name>

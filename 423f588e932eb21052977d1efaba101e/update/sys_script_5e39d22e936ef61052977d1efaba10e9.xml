@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="incident">category=hardware^x_1335393_smart_0_affected_assetISNOTEMPTY^stateCHANGESTO7^EQ<item display_value="Hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="hardware"/>
+            <item endquery="false" field="x_1335393_smart_0_affected_asset" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Affected Asset Maintenance&amp;Audit Create</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var gr = new GlideRecord("x_1335393_smart_0_asset");
+    gr.addQuery("sys_id", current.x_1335393_smart_0_affected_asset.sys_id);
+    gr.query();
+    if (gr.next()) {
+        gr.status = "In Use";
+        gr.lifecycle_stage = 'In Use';
+        gr.maintenance_required = false;
+        gr.last_maintenance_date = new GlideDateTime();
+        gr.maintenance_state = "completed";
+        gr.incident_count = 0;
+        gr.maintenance_frequency = gr.maintenance_frequency + 1;
+        gr.update();
+
+    }
+    var audit = new GlideRecord('x_1335393_smart_0_asset_audit');
+    audit.initialize();
+    audit.action = "Maintainance Completed";
+    audit.action_date = new GlideDateTime();
+    audit.performed_by = gs.getUserID();
+    audit.asset = current.x_1335393_smart_0_affected_asset.sys_id;
+    audit.notes = current.x_1335393_smart_0_affected_asset.number + " Maintainance Completed :" +  gr.maintenance_frequency;
+    audit.insert();
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 05:17:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e39d22e936ef61052977d1efaba10e9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Affected Asset Maintenance&amp;Audit Create</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>sys_script_5e39d22e936ef61052977d1efaba10e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 06:14:46</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e39d22e936ef61052977d1efaba10e9"/>
+</record_update>

@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:44</sys_created_on>
-            <sys_id>6d841d929326761052977d1efaba100f</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9747e9da93a6761052977d1efaba1003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:44</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>requested_for</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:44</sys_created_on>
-            <sys_id>e9841d929326761052977d1efaba1010</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>1747e9da93a6761052977d1efaba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:44</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>asset_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:44</sys_created_on>
-            <sys_id>69841d929326761052977d1efaba1011</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9347e9da93a6761052977d1efaba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:44</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>required_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:44</sys_created_on>
-            <sys_id>e5841d929326761052977d1efaba1012</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>1347e9da93a6761052977d1efaba1006</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:44</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>business_reason</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:44</sys_created_on>
-            <sys_id>65841d929326761052977d1efaba1013</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9f47e9da93a6761052977d1efaba1006</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:44</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:45</sys_created_on>
-            <sys_id>e1841d929326761052977d1efaba1014</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>1f47e9da93a6761052977d1efaba1007</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:45</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>request_status</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:45</sys_created_on>
-            <sys_id>61841d929326761052977d1efaba1015</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9b47e9da93a6761052977d1efaba1008</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:45</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>approval_date</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:45</sys_created_on>
-            <sys_id>ed841d929326761052977d1efaba1015</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>1b47e9da93a6761052977d1efaba1009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:45</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>assignment_group</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:45</sys_created_on>
-            <sys_id>6d841d929326761052977d1efaba1016</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9747e9da93a6761052977d1efaba100a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:45</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,27 @@
             <element>approval_by</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-22 05:33:45</sys_created_on>
-            <sys_id>e9841d929326761052977d1efaba1017</sys_id>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>1747e9da93a6761052977d1efaba100b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-22 05:33:45</sys_updated_on>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-22 06:55:47</sys_created_on>
+            <sys_id>9347e9da93a6761052977d1efaba100c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1335393_smart_0_asset_request_table" sys_domain="global" view="Default view">41d741c293a2f21052977d1efaba108f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-22 06:55:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

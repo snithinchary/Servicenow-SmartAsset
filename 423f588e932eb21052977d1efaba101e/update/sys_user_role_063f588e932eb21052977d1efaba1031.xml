@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Manager Role</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>1dyyfSoKaPtlVaWX/0fVL3YIQrCRktpB1lVxsTBB5iU=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1335393_smart_0.u_asset_manager</name>

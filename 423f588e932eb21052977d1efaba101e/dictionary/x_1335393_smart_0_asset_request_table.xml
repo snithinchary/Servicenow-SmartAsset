@@ -15,13 +15,12 @@
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element choice="1" label="Asset Type" mandatory="true" max_length="40" name="asset_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cloud Resource" sequence="700" value="Cloud Resource"/>
-                <element inactive_on_update="false" label="Mechanical Equipment" sequence="600" value="Mechanical Equipment"/>
-                <element inactive_on_update="false" label="Non-IT Asset" sequence="100" value="Non-IT Asset"/>
-                <element inactive_on_update="false" label="Software" sequence="500" value="Software"/>
-                <element inactive_on_update="false" label="IT Asset" sequence="200" value="IT Asset"/>
-                <element inactive_on_update="false" label="Electrical Equipment" sequence="400" value="Electrical Equipment"/>
-                <element inactive_on_update="false" label="Medical Equipment" sequence="300" value="Medical Equipment"/>
+                <element inactive_on_update="false" label="Tablet" sequence="4" value="Tablet"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="Laptop"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="5" value="Keyboard"/>
+                <element inactive_on_update="false" label="Mobile" sequence="1" value="Mobile"/>
+                <element inactive_on_update="false" label="Printer" sequence="2" value="Printer"/>
+                <element inactive_on_update="false" label="Monitor" sequence="3" value="Monitor"/>
             </choice>
         </element>
         <element label="Approval Date" max_length="255" name="approval_date" type="glide_date"/>
@@ -29,13 +28,17 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Request Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Business Reason" max_length="40" name="business_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Required Date" max_length="40" name="required_date" type="glide_date"/>
+        <element label="Asset" max_length="32" name="asset" reference="x_1335393_smart_0_asset" type="reference"/>
         <index name="index">
             <element name="approval_by"/>
         </index>
         <index name="index2">
-            <element name="assignment_group"/>
+            <element name="asset"/>
         </index>
         <index name="index3">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index4">
             <element name="requested_for"/>
         </index>
     </element>

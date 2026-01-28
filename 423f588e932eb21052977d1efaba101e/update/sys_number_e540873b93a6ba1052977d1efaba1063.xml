@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1335393_smart_0_asset_audit">x_1335393_smart_0_asset_audit</category>
+        <maximum_digits>5</maximum_digits>
+        <number>100</number>
+        <prefix>ASSAUD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 05:15:23</sys_created_on>
+        <sys_id>e540873b93a6ba1052977d1efaba1063</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ASSAUD</sys_name>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>sys_number_e540873b93a6ba1052977d1efaba1063</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 05:15:23</sys_updated_on>
+    </sys_number>
+</record_update>

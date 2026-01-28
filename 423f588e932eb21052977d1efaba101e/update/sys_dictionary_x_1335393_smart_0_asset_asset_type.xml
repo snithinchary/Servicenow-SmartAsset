@@ -6,8 +6,8 @@
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>asset_type</choice_field>
+        <choice_table>x_1335393_smart_0_asset_request_table</choice_table>
         <column_label>Asset Type</column_label>
         <comments/>
         <create_roles/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name>sys_dictionary_x_1335393_smart_0_asset_asset_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-21 09:57:40</sys_updated_on>
+        <sys_updated_on>2026-01-22 06:40:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

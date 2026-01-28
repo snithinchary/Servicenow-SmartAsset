@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent>
+        <name>Asset Lifecycle Status</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzYyMDMxMjE4NTEwMDk5MC41NTM4NDg1NQ==","reportSourceSysId":null,"isDatabaseView":false,"label":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1335393_smart_0_asset"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":false,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzYyMDMxMjE4NTEwMDk5MC41NTM4NDg1NQ==","groupByField":"lifecycle_stage","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Asset Lifecycle Status","titleColor":{"value":null},"showHeader":true,"headerColor":{"value":null},"showBorder":true,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzYyMDMxMjE4NTEwMDk5MC41NTM4NDg1NQ==","id":"ZEdGaWJHVjRYekV6TXpVek9UTmZjMjFoY25SZk1GOWhjM05sZERFM05qazFOell5TURNeE1qRTROVEV3TURrNU1DNDFOVE00TkRnMU5RPT0xNzY5NTc2MjAzMTIyMTk1Njc2NzQuNjIwMTA5MTIy","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"showAbsolutePeriod":false,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":false,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","trendBy":null,"truncationType":"start","wrapTitle":true,"showDataTable":false}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 08:58:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>072e803f409a76eee941dc85d13605b9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Asset Lifecycle Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>par_visualization_072e803f409a76eee941dc85d13605b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 04:56:45</sys_updated_on>
+        <type>Pie</type>
+    </par_visualization>
+</record_update>

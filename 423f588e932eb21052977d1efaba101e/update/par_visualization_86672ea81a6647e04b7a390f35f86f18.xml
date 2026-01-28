@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List">7ff373544303121093711347efb8f23c</macroponent>
+        <name>Assets in Maintenance</name>
+        <properties>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzU5NTAxMjY3ODY2OTk0Mi4wODk0NTIwMw==","id":"ZEdGaWJHVjRYekV6TXpVek9UTmZjMjFoY25SZk1GOWhjM05sZERFM05qazFOelU1TlRBeE1qWTNPRFkyT1RrME1pNHdPRGswTlRJd013PT0xNzY5NTc1OTUwMTI3MTE0NjA5NzAuNDA0MjU5MDg2","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"table":"x_1335393_smart_0_asset","columns":"number,asset_tag,asset_type,assigned_to,lifecycle_stage,status,maintenance_frequency","dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"lifecycle_stage=Maintenance","id":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzU5NTAxMjY3ODY2OTk0Mi4wODk0NTIwMw==","isDatabaseView":false,"label":null,"sourceType":"table","tableOrViewName":"x_1335393_smart_0_asset"}],"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":false,"groupByField":"active","groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldDE3Njk1NzU5NTAxMjY3ODY2OTk0Mi4wODk0NTIwMw==","groupByField":"active","isRange":false,"isPaBucket":false,"isChoice":false}]}],"hideDotwalk":false,"limit":10,"maxCharLimit":4000,"showColumnFiltering":true,"showColumnGrouping":true,"showColumnReorder":true,"showColumnResizing":true,"showColumnSorting":true,"showFilterIcon":false,"showHeader":true,"headerTitle":"Assets in Maintenance","showHeaderSeparator":false,"showInlineEditing":true,"showLinks":true,"showPersonalization":true,"showViewAll":true,"allowListPagination":true,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"showBorder":true,"wrapTitle":false,"showLoadingIndicator":false}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:03:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86672ea81a6647e04b7a390f35f86f18</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Assets in Maintenance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>par_visualization_86672ea81a6647e04b7a390f35f86f18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 04:52:34</sys_updated_on>
+        <type>List</type>
+    </par_visualization>
+</record_update>

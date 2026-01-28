@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>8LfYEix6n1+KVDWrdFLXtm5LuLjKpeJFsRbCu0JimkM=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1335393_smart_0.asset_request_table_user</name>

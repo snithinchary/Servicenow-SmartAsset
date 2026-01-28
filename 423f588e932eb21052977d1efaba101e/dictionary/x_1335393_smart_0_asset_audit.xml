@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22fef23793aeba1052977d1efaba10c7" label="Asset Audit" max_length="40" name="x_1335393_smart_0_asset_audit" type="collection">
+        <element label="Asset" max_length="32" name="asset" reference="x_1335393_smart_0_asset" type="reference"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Performed By" max_length="32" name="performed_by" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Action" max_length="40" name="action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maintainance Completed" sequence="20" value="Maintainance Completed"/>
+                <element inactive_on_update="false" label="Asset Created" sequence="0" value="Asset Created"/>
+                <element inactive_on_update="false" label="Asset Assigned" sequence="10" value="Asset Assigned"/>
+                <element inactive_on_update="false" label="Asset Retired" sequence="30" value="Asset Retired"/>
+            </choice>
+        </element>
+        <element label="Action Date" max_length="255" name="action_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="performed_by"/>
+        </index>
+    </element>
+</database>

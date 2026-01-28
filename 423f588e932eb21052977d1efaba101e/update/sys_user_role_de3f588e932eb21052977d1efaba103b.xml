@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Default admin role</description>
         <elevated_privilege>false</elevated_privilege>
+        <federated_id>KIH/6+geJof3pvHC7W3eMdv7LN8lfsTNpvOTPUNDD0E=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1335393_smart_0.u_asset_admin</name>

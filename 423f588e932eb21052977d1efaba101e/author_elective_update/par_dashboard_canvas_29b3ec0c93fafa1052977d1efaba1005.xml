@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Smart Asset Lifecycle Dashboard">6db3e80c93fafa1052977d1efaba10ea</dashboard>
+        <dashboard_tab display_value="New Tab 28">e1b3ec0c93fafa1052977d1efaba1000</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:29:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29b3ec0c93fafa1052977d1efaba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>par_dashboard_canvas_29b3ec0c93fafa1052977d1efaba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:29:50</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</application>
+        <file_path/>
+        <instance_id>3f1db6d693d8aa9c401cddd548373ca4</instance_id>
+        <instance_name>dev300834</instance_name>
+        <name>par_dashboard_canvas_29b3ec0c93fafa1052977d1efaba1005</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Smart Asset Lifecycle Dashboard">6db3e80c93fafa1052977d1efaba10ea</dashboard><dashboard_tab display_value="New Tab 28">e1b3ec0c93fafa1052977d1efaba1000</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-27 12:29:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>29b3ec0c93fafa1052977d1efaba1005</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package><sys_policy/><sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope><sys_update_name>par_dashboard_canvas_29b3ec0c93fafa1052977d1efaba1005</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-27 12:29:50</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-1235726388</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d973c14a9362f21052977d1efaba10a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:29:50</sys_created_on>
+        <sys_id>69b3ec0c93fafa1052977d1efaba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bff6e80800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:29:50</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>e5b3ec0c5bfafa10985f66b9490e0107</update_guid>
+        <update_guid_history>e5b3ec0c5bfafa10985f66b9490e0107:-1235726388</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ab34e08c93fafa1052977d1efaba106a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:32:09</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>0dd6d3f5afd64d7b83f3212a698ede09</sys_id>
+        <sys_metadata>29b3ec0c93fafa1052977d1efaba1005</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_scope_delete display_value="">60219f40dcc247cca584a68e60db3e64</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_29b3ec0c93fafa1052977d1efaba1005</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_29b3ec0c93fafa1052977d1efaba1005">69b3ec0c93fafa1052977d1efaba1008</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 12:32:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

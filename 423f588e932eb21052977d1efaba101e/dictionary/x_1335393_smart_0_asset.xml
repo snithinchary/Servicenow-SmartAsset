@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b531e882936eb21052977d1efaba10ff" label="Asset" max_length="40" name="x_1335393_smart_0_asset" type="collection">
         <element label="Warranty End" max_length="255" name="warranty_end" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Retired On" max_length="255" name="retired_on" type="glide_date_time"/>
         <element choice="1" label="Lifecycle Stage" max_length="40" name="lifecycle_stage" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In Use" sequence="3" value="In Use"/>
@@ -13,14 +15,42 @@
         </element>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Asset Tag" max_length="40" name="asset_tag" type="string"/>
+        <element choice="1" label="Maintenance State" max_length="40" name="maintenance_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In progess" sequence="1" value="inprogess"/>
+                <element inactive_on_update="false" label="Planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Retired" sequence="10" value="Retired"/>
+                <element inactive_on_update="false" label="InProgress" sequence="1" value="InProgress"/>
+                <element inactive_on_update="false" label="In Maintenance" sequence="4" value="In Maintenance"/>
+                <element inactive_on_update="false" label="In Use" sequence="3" value="In Use"/>
+                <element inactive_on_update="false" label="Assigned" sequence="2" value="Assigned"/>
+            </choice>
         </element>
         <element label="Assigned_to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Maintenance Required" max_length="255" name="maintenance_required" type="boolean"/>
+        <element label="Last Maintenance Date" max_length="255" name="last_maintenance_date" type="glide_date"/>
+        <element choice="1" label="Retirement Reason" max_length="40" name="retirement_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Old Model" sequence="3" value="Old Model"/>
+                <element inactive_on_update="false" label="End Of Life" sequence="0" value="End Of Life"/>
+                <element inactive_on_update="false" label="Beyond Repair" sequence="1" value="Beyond Repair"/>
+                <element inactive_on_update="false" label="Performance Isse" sequence="2" value="Performance Isse"/>
+            </choice>
+        </element>
         <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element default="0" label="Incident Count" max_length="40" name="incident_count" type="integer"/>
         <element label="Active" max_length="255" name="active" type="boolean"/>
+        <element label="Retired By" max_length="32" name="retired_by" reference="sys_user" type="reference"/>
+        <element label="Maintenance Frequency" max_length="255" name="maintenance_frequency" type="integer"/>
+        <element label="Asset Age" max_length="255" name="asset_age" type="integer"/>
         <element label="Purchase Date" max_length="255" name="purchase_date" type="glide_date"/>
-        <element choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+        <element choice="1" choice_field="asset_type" choice_table="x_1335393_smart_0_asset_request_table" label="Asset Type" max_length="40" name="asset_type" type="choice">
             <choice/>
         </element>
         <index name="index">
@@ -28,6 +58,9 @@
         </index>
         <index name="index2">
             <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="retired_by"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=85663000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>smart_asset_maintenance_incident</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"b2f2cd17-e408-468a-8908-fbd55023e5df":["conditions"],"f533108a-91bc-417b-a931-9da96e5bd287":["x_1335393_smart_0_affected_asset"],"a2b30caa-0fcc-4f5e-9973-fc80d9e6e030":["record"]},"attributes":{}},{"name":"b2f2cd17-e408-468a-8908-fbd55023e5df.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"62c4582a-c571-427e-98b7-6adc0daf5ec9":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛Asset Record➛Asset Tag","reference":"","reference_display":"Asset Tag","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"asset_tag","usedInstances":{"f533108a-91bc-417b-a931-9da96e5bd287":["short_description"]}}]</label_cache>
+        <master_snapshot>08a532929362b61052977d1efaba10ed</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Smart Asset Maintenance Incident</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>b1fa7ba29326721052977d1efaba10d8</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:31:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f243e9e9322b61052977d1efaba102f</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Smart Asset Maintenance Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>sys_hub_flow_9f243e9e9322b61052977d1efaba102f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>82fabba29326721052977d1efaba1040</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1335393_smart_0_asset">maintenance_required=true^maintenance_state=planned<item endquery="false" field="maintenance_required" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Planned" endquery="false" field="maintenance_state" goto="false" newquery="false" operator="=" or="false" value="planned"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 12:19:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1fa7ba29326721052977d1efaba10d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <table>x_1335393_smart_0_asset</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>9f243e9e9322b61052977d1efaba102f</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-23 12:19:24</sys_created_on>
+        <sys_id>f9fa7ba29326721052977d1efaba10d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <trigger display_value="">b1fa7ba29326721052977d1efaba10d8</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9f243e9e9322b61052977d1efaba102f^sys_idNOT INf9fa7ba29326721052977d1efaba10d9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9f243e9e9322b61052977d1efaba102f^sys_idNOT IN53243e9e9322b61052977d1efaba1031"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9f243e9e9322b61052977d1efaba102f</id>
+        <name>Smart Asset Maintenance Incident</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:31:39</sys_created_on>
+        <sys_id>53243e9e9322b61052977d1efaba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:31:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=53243e9e9322b61052977d1efaba1031"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9f243e9e9322b61052977d1efaba102f^sys_idNOT IN0144b2de9322b61052977d1efaba105e,4d44b2de9322b61052977d1efaba1016,8544b2de9322b61052977d1efaba1068"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</model>
+        <model_id>9f243e9e9322b61052977d1efaba102f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:02</sys_created_on>
+        <sys_id>0144b2de9322b61052977d1efaba105e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0144b2de9322b61052977d1efaba105e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</model>
+        <model_id>9f243e9e9322b61052977d1efaba102f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:02</sys_created_on>
+        <sys_id>4d44b2de9322b61052977d1efaba1016</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4d44b2de9322b61052977d1efaba1016"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</model>
+        <model_id>9f243e9e9322b61052977d1efaba102f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:02</sys_created_on>
+        <sys_id>8544b2de9322b61052977d1efaba1068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:32:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8544b2de9322b61052977d1efaba1068"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9f243e9e9322b61052977d1efaba102f^sys_idNOT INf444b69e9322b61052977d1efaba103f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:01</sys_created_on>
+        <sys_id>f444b69e9322b61052977d1efaba103f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:22</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9f243e9e9322b61052977d1efaba102f^sys_idNOT IN0974b2de9322b61052977d1efaba1097,1005fa129362b61052977d1efaba10f2,8275fa529362b61052977d1efaba1033"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:51</sys_created_on>
+        <sys_id>0974b2de9322b61052977d1efaba1097</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:49</sys_updated_on>
+        <ui_id>b2f2cd17-e408-468a-8908-fbd55023e5df</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXbW/iOBD+K7l8plxCgEC/rVohVdrbSttuv+ztWo7tgHXGydpOaYv47zvOGxykQLaw6uk+IY8nnplnnnnh69Ll1L10B9Qbx+PxYBR6XhB43nAYEOxHUTAkkRdFvttxJZ4z0NSJMsg8pwxEj1hktQxrAiLKdSrw80N5gx2TOC8gJzMuqGLSvfz6reOmWMFrhin3crl1daw7AkdMgOod2HbuC38aXMx/LsFGwkl1/lh+elUJE0WtK0HHZU+GScrAhxgLzTruHEuKTaKea4limN5KsRbMuDTwmmuVnzR/AXtBz+rFDKIirLirj6iEqBDH19jgO6MyYjJVqhbOasBjWYdZA9mAeem+t+qs9V+sPt7Wp2zzA38FeFMW40yYq1+z6be12bM2iwBvU8MTyLob2LzgSFThJyKby09FLt3aw4cGshU3169wLtMANkttQm2GynTFd7Nk8bnKxoTL3K/yUiQEi/qEjVE8yozFZenGFMWcCYq4FFxaS5A2Sx8m2BwsoDlOUy6nKFXJI89fhVjm3amAQzcWycJiwaeyi4mNvAvEwt0JyK9z8QNW3KLwFzwDH3eswRl8WtpDmiieGrTgdMrM2nqlRROzwOKfpvuScahKVB6eu+q4+llfCaz1GmygKfqRWQwK6Ev0UJ6o/JPciw8QwSMrgbIcyMvW31u2mG6VaJHoDb7s9o/WneMIFyoUbi0jnej5Na/K1lHkPNf4d/uY2AvnU3FR0ftkLWTknaaFNJX4bgm2qsDd0rJUe0NlnbGAmiq2PfELbA6xf7x3aI3XPOMxmgOePBUMKUaAOxphxVCcZJKiIriNsrBgx1xpUyrvlslnBqmXTgKccsyMObm2U2u3LKHDcVQldBM7VSClNe1AIE4eiFMH0i7sNiO7f7J665+o3tbjcIK5yLOhDUs30smUStQrY/tAIvcw4siZfqRT/kmdevvQbyqBxuF/wNcTrwTnaVynH8yE4ajfw8Mw8H3P8z0aeqMw9EfDKB7isB+vaxQhLQnsEvByDFSB51FFjSrP/m7/KVeNdn3mCKcqBl4n8u/M83qhcaxXkF6n8uqw32U/iZJEMCy3Gso9eP7nJN+HaroO3l1T+S1D/K3FkPH7baQLUSPW55r5Gf8i+Y+M3ViKjZjXG/mUXIxCP7zox3R4MaZ4cIHH0SAMKCP9+Bx7MB3sXUI3NgGSSMptXHqjwJ6QHwSDYBwgPcewkXoIxzEjhsGQ1JoZWwoBXS6/pAAGCP0uyRRky6xW37UB0R+FRvidwGEKpC3OM6zoAgbubv3+BovtesMRCFa94WoTwiZYq31iW/ax6YFq/p2wBXj/pSbwLjf5My3sdO+ii/trPhXPrSuUS8JzvHYq6WZ905Lxh52pGH9ferPlXMnz/Nj0fzX/bOv/qvf//L/6Pvc+cIgLYAgqUqiTTOVQPiIiMp1fKCx1+UfpdGPr208QgZxTBhYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0974b2de9322b61052977d1efaba1097"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:35:16</sys_created_on>
+        <sys_id>1005fa129362b61052977d1efaba10f2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:49</sys_updated_on>
+        <ui_id>f533108a-91bc-417b-a931-9da96e5bd287</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXU/bMBT9K5WfsygfpdC+TSC0SXxMg/FCqeXaN6k1x8kcp9BV/e9cO26LGGhM2h6Qlqf4+N7rc4/P9e2aSEEmZCQgGY/TEc/TPM+SJDsapvNRPk8zkTNI5yQimlWAkUumOmhx7X8QeKCYcpCPc9pWzFiaUFYUwC0IytoW7LRLklys198awRyYxrwzBrTdbGYckbI2qz5mwYy4ZwZm7aLGQgJabmRjZa37/S8GlpgnlzA4Z1Jb0ExzGHwYvFA89mdTy0o8Bv9lqSuEaWnqrgmUpkTItlFsNSWTKfkEqhmcQPt9SqJp353HR4fjYT4skoM8Q3GSBPIsFQKgKA6dPEc+vF21VIo3xm9msmoYD8pks86UoHkQIUNpA62b/wr/K4X5QiqBXZDJ7V1EGmbQ3BYMmayfbb11OhSbg8LQUwlKtC+Mi101bm2hQj0s0H58evwsJF+HzcFN2KyNcKTSiMADXoYAZFMw1UJEKqbxQvBmycSaDgEDTFxqtdpFLPACsShxsQ+t/InHp6PEfy66AGySQx+xW9JwYT1cnDDLrrA+t50JoXxRS44teXkEFKxT9vgp1gdcelv1KZbN1Ta7Vl2lL3pxyK7A1uqIdC2SgMZ16/j3zRVXi/r+65bkqdRel9CoqjlTuxWz1sh5Zx2dNQEF3pUVaxqpS9qYeil9MlKp4lLhIi5Ufe+GAS0co2uQd4zasvgU8RMP3zAjXRPnWAaTN5Hz47FC2+9bQQ3pj84x6RsLLVCvgpeAelO4ZD92H7mbtEB8E22f4hSSg1fNBsO9t57U3D/HUnPplfvlGfm83/lD+/+e0db+1/6mX2a4nYDn2NnT3MFFvxGcn/wt5x+9J8+HNt696V+z+t0ja8Y0eHcIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1005fa129362b61052977d1efaba10f2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:18</sys_created_on>
+        <sys_id>8275fa529362b61052977d1efaba1033</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:49</sys_updated_on>
+        <ui_id>a2b30caa-0fcc-4f5e-9973-fc80d9e6e030</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvjMBD8K0HPwdhxEpq8lYZAoR/Q9vLSa4UirROBLPskOY0v5L/f2paTkH6QQjmucHmKRrvSzGgWP26IFGRMwp4Io1E05HEUx70w7J31o/kwnkc9ETMAIF2iWQpYuWKqAIvr+g8CKZPagWaaA7WOOfhZhGEspM5NtgBrnyuwsA16qTvX+/pnJRPgJVd158J3HhTgNULaXLFy9ndu40uphAFNxo9PXZIzg6IdGDLeHG2d6ppic1BYOpWghH3DRlfm1dpBijId0MbWBr/yzQ9+szPzm5kRFakoDLsE1khfAPJJmLLQRYu0YC4zJRk7UyBggIlbrcpdxRIl47Gkql1b+RsJRMOw/lXVCaBMDk3Fbkn9SzRwMmGO3eP53BXGl/JlJjmKqg0SkLBCuYtDrCm4zZ3MdNPi2Fy13ZkqUn3T2EN2B7QPj0hhkQTkldqKfyMuuV9mL3ctyanUtTNeqMo4U7sVc87IeeEqOhsCClI8h6Ysz6VeUAzQStbNSCUNFgoXQaKyF7zTyoUOGK94B+gtC6aIT2p4xoysRFzjMdi87RJb2gvFrN1LQQ/pr6Ji0gjzEmjtQm0BrWNRNXMjc3eOV63AE992/ZD24cO4Rft0GeAYkYMh3Wx+5EgcBI0CXhj0ym23r6fr0xNwAqV2Au5aTscc/QSIjBf1g0hxFP+J3+lcTg6z/1XR7/8P/T8c+vngo4Tx0T5QB2fug7+m2DaIRzG1KTOOhhRJgnsd/XMPfy7/J7Br8/9Qv/rbbNuPwDF2ddjbuWk2/AAMvmwAzr7TAHgZ334C3sv90x8AwwPdkwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8275fa529362b61052977d1efaba1033"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9f243e9e9322b61052977d1efaba102f^sys_idNOT IN6bb4b2129362b61052977d1efaba1069"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb9532929362b61052977d1efaba10a7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:34:07</sys_created_on>
+        <sys_id>6bb4b2129362b61052977d1efaba1069</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:22</sys_updated_on>
+        <ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U0W7aMBT9FZbngJyEMOCt2lSp0rZOa9WXropu7BuwZuzMdqAM8e+7TgJFK1Wnao97Snzu9T3n3BxlF5nG1413t+bCObnQ0fz+IY6kDhi97yINK4zmETdaSC+NLlogjtagmlC40lwK1H7w1aILT2MH2njqENLVCrZ3rzbypVTCYs9dgyUGjzaa7/4o+W2NhYISFc278VbqBV2Xgk4VgyqZ8YRn6SRLGUun46ScZGWSigwQMuo7XPxwsDL41CLxix4DH+HuwGSsCLISFkf46FELJOoKlMM4WoEW4I3dHhGLIK61egKWUnsaF4XmRyd/0ew0z0NjheSRY1c8Hot+gx3Ml0ZyvK6DwA7xUKr+DjeqWekvnY+we6ygUf6we0IaR/OwDqKDil5SdbM0m28HwkupW4N9URkO6ngCT2soG48ufBhUuKJBxQrqmpZT1NasZXuZtKxGC0WHUaXMhkhDrkbAg/AR7QhGl4R/bOE7sDK4+Exj6HInswQnedFmkMZ5Sxb27VqKn00Q1BnsrRTdNqjBcStrf0E8a+xV7+PnAT7J7m5XplXKRfJ+iGM2HY4nUxhOZ/RWlSLPWZphLqqR8+Abt9+/+94wlgn2PNtvH/Qvsj+DvMoTlp/P/nhyLvtnUv9y4NNXAh8+0V/mnTH2P/CngZeu6ILbe2vJ35z3hxDujsF1uRHIpSMhtwG7OvzXQ2FLAZD8FNoY+yNYeML2vwFG1CAlIQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9f243e9e9322b61052977d1efaba102f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:02</sys_created_on>
+        <sys_id>0544b2de9322b61052977d1efaba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:32:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:02</sys_created_on>
+        <sys_id>8944b2de9322b61052977d1efaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:32:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:32:03</sys_created_on>
+        <sys_id>cd44b2de9322b61052977d1efaba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:32:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9f243e9e9322b61052977d1efaba102f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9f243e9e9322b61052977d1efaba102f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>smart_asset_maintenance_incident</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"b2f2cd17-e408-468a-8908-fbd55023e5df":["conditions"],"f533108a-91bc-417b-a931-9da96e5bd287":["x_1335393_smart_0_affected_asset"],"a2b30caa-0fcc-4f5e-9973-fc80d9e6e030":["record"]},"attributes":{}},{"name":"b2f2cd17-e408-468a-8908-fbd55023e5df.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"62c4582a-c571-427e-98b7-6adc0daf5ec9":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.asset_tag","label":"Trigger - Record Updated➛Asset Record➛Asset Tag","reference":"","reference_display":"Asset Tag","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"asset_tag","usedInstances":{"f533108a-91bc-417b-a931-9da96e5bd287":["short_description"]}}]</label_cache>
+        <master>true</master>
+        <name>Smart Asset Maintenance Incident</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Smart Asset Maintenance Incident">9f243e9e9322b61052977d1efaba102f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08a532929362b61052977d1efaba10ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=08a532929362b61052977d1efaba10ed"/>
+    <sys_variable_value action="delete_multiple" query="document_key=08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=08a532929362b61052977d1efaba10ed"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=08a532929362b61052977d1efaba10ed^sys_idNOT IN4ca532929362b61052977d1efaba10ee"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>08a532929362b61052977d1efaba10ed</id>
+        <name>Smart Asset Maintenance Incident</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:58</sys_created_on>
+        <sys_id>4ca532929362b61052977d1efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4ca532929362b61052977d1efaba10ee"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=08a532929362b61052977d1efaba10ed^sys_idNOT IN08a572929362b61052977d1efaba1010,08a572929362b61052977d1efaba1034,44a532929362b61052977d1efaba10f0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</model>
+        <model_id>08a532929362b61052977d1efaba10ed</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>08a572929362b61052977d1efaba1010</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 05:22:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08a572929362b61052977d1efaba1010"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</model>
+        <model_id>08a532929362b61052977d1efaba10ed</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>08a572929362b61052977d1efaba1034</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08a572929362b61052977d1efaba1034"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</model>
+        <model_id>08a532929362b61052977d1efaba10ed</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:58</sys_created_on>
+        <sys_id>44a532929362b61052977d1efaba10f0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=44a532929362b61052977d1efaba10f0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=08a532929362b61052977d1efaba10ed^sys_idNOT IN0ca572929362b61052977d1efaba104f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>0ca572929362b61052977d1efaba104f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:23</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9Va227jNhD9FUFPLeAWkuVLnD6luXQD7G4Ax7t9SFOBIimbqEw5JKXEXeTfO9TFlnVxfFG23pckJinOzOGZM8PID9/MAHk0MM/NCfICanZMxhUVHAWT5YLCsNLDLkdzPTdHnCAViqV5rkREO6YvwvmEzhcBUrDYR4GEwVAQKsxzu2PGKIjo/VLeEtgJnk+2yfY0s2n4/OLajtN3Ro4r50go13KRlFTBCsIk7L38mi28yIbxjAVEUG6ePzx2zAUSsK/SNr+Vppg2bBOC7C61sGM73a5ldc96tjdwPLtLHETRGWxYBqHkqKrBYh0lfVGUE0pWAFRgEhSROx4sCyteJPsX9jyz9KxPwWNMU5BWH90s+nQYz0KG6d1CsZCnI6l36WQYRHP+OfVa40Z9FAUqxw1GIgn70YV2lKuVH/79LHwe5wZvGE9iyiaDEKNg9QkpJZgXKSo1zD4LAHA3RUSGkUi8H19f3o2v3D8vJpcfrsfu+Pp+Mr69nFxfma9JXO5TpHdMPcx8cdNwXleHfcNooI+NR3MPvOmYEgu2UBdYsTgn2WtnTdzLkBOWoFIhL86n5CZ58+i3sdeyGvmLCxZzDs+Rts2RPjdBnyImKPkrsiyHaAr8XZyWCuylc2Cac2DOvpT2vBEiFDVQejAsULoIT43/qgapIgTbyJ2NNLO7Z1n/E78zeTqU3vOQ0OBqvZ0Jk9MpEJ7xRaQ0RjkubrigQuMBz5lfLz5efrj4/Mf1/W/Z75vx3af878kdPPeMuJKuCl1EiFtAXZuAWN7KkxSTarK8nSYi4rCFuzrParIkB7A6iY9MQuAPkOo5ysmWMO9/zLYcR9wI4eDhh4EjASArI5dM/3aOptnZ+Pc0oFgVSOR/kcVPn5iUjE8LXq+MJqhUbK7MARmNPKTUtjzS+GObSlEFPS6BWapweyvBABO75w0H1lDrgG05nm9bQ6uPfOJY1sgpKEHVmUYvVYkSLSrCfnogEwoGOxCuDGzmslXMgZ3IE28yLw9dEyOTnct2XLNbcq2rXSvJp7OXfq7ImA5fbXJyW2gttxWIxLpEkl3lUC/YQff8IHwG6T5A8zyE/5mKMOKkLEJ6T4NxY73C+CnD7+cW9c8PBd3uwOaKU1K+New5cRFftqB5PYrJcNAbWCB1Dqic1x+NPIy6vj8cDKlFSpq3dqPWtxPWujc4FteRtEn3aukS17FsD8U7wsGK+u3t4PG6l9GxVvXSuR9D355nlLvgqnADrWAVmZsGjNB8rt0cr5iO11l9bJ47/hnp94dDPIQbDuS536MesnvdPhoNBw4dlPK84so2N1UNMu9475FLmZhv0IAv6dRp3fHfk6ySKqVLz/4VmUOnmjyDUiOFqqgPw0ikJBTG55D/crteZ9xTKHbJlbet0ryLF/pgjfd1wwvVrNIbgOnfYXzDtO4pG1A5uUtTiSTxZqxHNxBnzqhPfKdeWIbdOmFZO9Ps5om2EjvmRdyYYXU9xa40j2uzpbEJOIC4JXIUu4Mt7UtboNitg9J9P1Cco1umPAMbb4qHOPsDFa6khzimemmb1A39omRfhQZMGGDEYL6R/a8RLv7e0lAzCpAG0BuDQUNbP1ari7Wj6sqKwd/XkbTbrtQwGDaytun0ylOJCu3ecbE/8sjIaeh9+829b3OdKk2faLHaOxfiutTaWrH227e8Z23NKhB1kwc7VqNWo64vScdFXVuU3or6+HKz7YZe48XpFxLt9CQ9hgPKR8hx6a6B23zZEnH2FFEXzxCfpi9SckM3gDNFeGakS4x0SZsFIHhGS2mWKxGQVudF9m9nGIAM4al+tWWZxlQsK7HqQSNaEF0cvnvx2fLView9pFQCnpwuC5mXx7FnnbFH/a5DzrBjj5zqlyPsQp3ZpG6zQ42F5Y3vSjQVlhlLXsEWzGfHo9icJjK2eo9qzJHCMyo7Bpxh8s4iUTkmpEpW/2q2eKnCxXc7WWbW1Z3G3Imb0q5Rx7ekQ1xOpDrhrqF2mT5F6d56fdoSvt1K+N02wncOC793dOXKEKkvXRl67ZarA75jY9bXq8f/AFPQ/3IYJgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=08a532929362b61052977d1efaba10ed^sys_idNOT IN80a572929362b61052977d1efaba104b,c4a572929362b61052977d1efaba1049,cca572929362b61052977d1efaba104c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>80a572929362b61052977d1efaba104b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 05:22:15</sys_updated_on>
+        <ui_id>f533108a-91bc-417b-a931-9da96e5bd287</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXU/bMBT9K5WfsygfpdC+TSC0SXxMg/FCqeXaN6k1x8kcp9BV/e9cO26LGGhM2h6Qlqf4+N7rc4/P9e2aSEEmZCQgGY/TEc/TPM+SJDsapvNRPk8zkTNI5yQimlWAkUumOmhx7X8QeKCYcpCPc9pWzFiaUFYUwC0IytoW7LRLklys198awRyYxrwzBrTdbGYckbI2qz5mwYy4ZwZm7aLGQgJabmRjZa37/S8GlpgnlzA4Z1Jb0ExzGHwYvFA89mdTy0o8Bv9lqSuEaWnqrgmUpkTItlFsNSWTKfkEqhmcQPt9SqJp353HR4fjYT4skoM8Q3GSBPIsFQKgKA6dPEc+vF21VIo3xm9msmoYD8pks86UoHkQIUNpA62b/wr/K4X5QiqBXZDJ7V1EGmbQ3BYMmayfbb11OhSbg8LQUwlKtC+Mi101bm2hQj0s0H58evwsJF+HzcFN2KyNcKTSiMADXoYAZFMw1UJEKqbxQvBmycSaDgEDTFxqtdpFLPACsShxsQ+t/InHp6PEfy66AGySQx+xW9JwYT1cnDDLrrA+t50JoXxRS44teXkEFKxT9vgp1gdcelv1KZbN1Ta7Vl2lL3pxyK7A1uqIdC2SgMZ16/j3zRVXi/r+65bkqdRel9CoqjlTuxWz1sh5Zx2dNQEF3pUVaxqpS9qYeil9MlKp4lLhIi5Ufe+GAS0co2uQd4zasvgU8RMP3zAjXRPnWAaTN5Hz47FC2+9bQQ3pj84x6RsLLVCvgpeAelO4ZD92H7mbtEB8E22f4hSSg1fNBsO9t57U3D/HUnPplfvlGfm83/lD+/+e0db+1/6mX2a4nYDn2NnT3MFFvxGcn/wt5x+9J8+HNt696V+z+t0ja8Y0eHcIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80a572929362b61052977d1efaba104b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>c4a572929362b61052977d1efaba1049</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 05:22:14</sys_updated_on>
+        <ui_id>b2f2cd17-e408-468a-8908-fbd55023e5df</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXbW/iOBD+K7l8plxCgEC/rVohVdrbSttuv+ztWo7tgHXGydpOaYv47zvOGxykQLaw6uk+IY8nnplnnnnh69Ll1L10B9Qbx+PxYBR6XhB43nAYEOxHUTAkkRdFvttxJZ4z0NSJMsg8pwxEj1hktQxrAiLKdSrw80N5gx2TOC8gJzMuqGLSvfz6reOmWMFrhin3crl1daw7AkdMgOod2HbuC38aXMx/LsFGwkl1/lh+elUJE0WtK0HHZU+GScrAhxgLzTruHEuKTaKea4limN5KsRbMuDTwmmuVnzR/AXtBz+rFDKIirLirj6iEqBDH19jgO6MyYjJVqhbOasBjWYdZA9mAeem+t+qs9V+sPt7Wp2zzA38FeFMW40yYq1+z6be12bM2iwBvU8MTyLob2LzgSFThJyKby09FLt3aw4cGshU3169wLtMANkttQm2GynTFd7Nk8bnKxoTL3K/yUiQEi/qEjVE8yozFZenGFMWcCYq4FFxaS5A2Sx8m2BwsoDlOUy6nKFXJI89fhVjm3amAQzcWycJiwaeyi4mNvAvEwt0JyK9z8QNW3KLwFzwDH3eswRl8WtpDmiieGrTgdMrM2nqlRROzwOKfpvuScahKVB6eu+q4+llfCaz1GmygKfqRWQwK6Ev0UJ6o/JPciw8QwSMrgbIcyMvW31u2mG6VaJHoDb7s9o/WneMIFyoUbi0jnej5Na/K1lHkPNf4d/uY2AvnU3FR0ftkLWTknaaFNJX4bgm2qsDd0rJUe0NlnbGAmiq2PfELbA6xf7x3aI3XPOMxmgOePBUMKUaAOxphxVCcZJKiIriNsrBgx1xpUyrvlslnBqmXTgKccsyMObm2U2u3LKHDcVQldBM7VSClNe1AIE4eiFMH0i7sNiO7f7J665+o3tbjcIK5yLOhDUs30smUStQrY/tAIvcw4siZfqRT/kmdevvQbyqBxuF/wNcTrwTnaVynH8yE4ajfw8Mw8H3P8z0aeqMw9EfDKB7isB+vaxQhLQnsEvByDFSB51FFjSrP/m7/KVeNdn3mCKcqBl4n8u/M83qhcaxXkF6n8uqw32U/iZJEMCy3Gso9eP7nJN+HaroO3l1T+S1D/K3FkPH7baQLUSPW55r5Gf8i+Y+M3ViKjZjXG/mUXIxCP7zox3R4MaZ4cIHH0SAMKCP9+Bx7MB3sXUI3NgGSSMptXHqjwJ6QHwSDYBwgPcewkXoIxzEjhsGQ1JoZWwoBXS6/pAAGCP0uyRRky6xW37UB0R+FRvidwGEKpC3OM6zoAgbubv3+BovtesMRCFa94WoTwiZYq31iW/ax6YFq/p2wBXj/pSbwLjf5My3sdO+ii/trPhXPrSuUS8JzvHYq6WZ905Lxh52pGH9ferPlXMnz/Nj0fzX/bOv/qvf//L/6Pvc+cIgLYAgqUqiTTOVQPiIiMp1fKCx1+UfpdGPr208QgZxTBhYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c4a572929362b61052977d1efaba1049"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>cca572929362b61052977d1efaba104c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 05:22:15</sys_updated_on>
+        <ui_id>a2b30caa-0fcc-4f5e-9973-fc80d9e6e030</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvjMBD8K0HPwdhxEpq8lYZAoR/Q9vLSa4UirROBLPskOY0v5L/f2paTkH6QQjmucHmKRrvSzGgWP26IFGRMwp4Io1E05HEUx70w7J31o/kwnkc9ETMAIF2iWQpYuWKqAIvr+g8CKZPagWaaA7WOOfhZhGEspM5NtgBrnyuwsA16qTvX+/pnJRPgJVd158J3HhTgNULaXLFy9ndu40uphAFNxo9PXZIzg6IdGDLeHG2d6ppic1BYOpWghH3DRlfm1dpBijId0MbWBr/yzQ9+szPzm5kRFakoDLsE1khfAPJJmLLQRYu0YC4zJRk7UyBggIlbrcpdxRIl47Gkql1b+RsJRMOw/lXVCaBMDk3Fbkn9SzRwMmGO3eP53BXGl/JlJjmKqg0SkLBCuYtDrCm4zZ3MdNPi2Fy13ZkqUn3T2EN2B7QPj0hhkQTkldqKfyMuuV9mL3ctyanUtTNeqMo4U7sVc87IeeEqOhsCClI8h6Ysz6VeUAzQStbNSCUNFgoXQaKyF7zTyoUOGK94B+gtC6aIT2p4xoysRFzjMdi87RJb2gvFrN1LQQ/pr6Ji0gjzEmjtQm0BrWNRNXMjc3eOV63AE992/ZD24cO4Rft0GeAYkYMh3Wx+5EgcBI0CXhj0ym23r6fr0xNwAqV2Au5aTscc/QSIjBf1g0hxFP+J3+lcTg6z/1XR7/8P/T8c+vngo4Tx0T5QB2fug7+m2DaIRzG1KTOOhhRJgnsd/XMPfy7/J7Br8/9Qv/rbbNuPwDF2ddjbuWk2/AAMvmwAzr7TAHgZ334C3sv90x8AwwPdkwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cca572929362b61052977d1efaba104c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=08a532929362b61052977d1efaba10ed^sys_idNOT IN4ca572929362b61052977d1efaba1046"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb9532929362b61052977d1efaba10a7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Smart Asset Maintenance Incident">08a532929362b61052977d1efaba10ed</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>4ca572929362b61052977d1efaba1046</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <ui_id>62c4582a-c571-427e-98b7-6adc0daf5ec9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8zPATkJYcBbRVWpUrdOa9WXropubAesGTuzHShD/PddJ+FDK1PXbY97Snx8fe85Jz7KlpjaV7V39+bCOTnXZPr4FBGpA4bvW6JhKciUMKO59NLovAEisgJVh41rzSQX2vc+WeHC09ieNh4ruHSVgs3Dq4VsIRW3optdgcUJXlgy3f60JTn2KSmU8YTFLE1GaUJpMh7GxSgt4oSnICDFhgoKobB0tifdu2mQ6Jdq/KYKuPNW6nm3vum63O1BY3lgFdOIiGcvNBfIpwTlRESWoDl4YzcHxArgt1odgYXUHtuRUPzs5HccmGRZKCwFSmSi3Tws887AFi4vwQNSqZmvbVfKFkYy4VpzuCihVn52irUFt1WQ2h7xUKj9aaPqpf7YOkIODfbfC5HaIQlRBaWBeqejvFuY9ec9yyupG1e6TWUYqMMKPHpX1D7w2RKhxBIb5UuoKnQ0r6xZyeYwclkO5goXg1KZNQ4Nd3EALBAfoLEwuEL8soEfwMqg4gO2wcMtzQKcZHlzb7Ed2iTILiJu42YKnDuKRHfzb3Wg2EruxOWtP+EIs7LyFzh5JTodu+hlDE4SsN0WSZkwHr/viyEd94ejMfTHE3wrC55lNElFxsuB8+Brt9u9+1JTmnL6MiF/3uhtCZpAVmYxzc4naDg6l6Az2XljbJJXYhO+2W+mhlL6PzZ/HRvp8vayd9qa4f8wNU8hIu3Mg9dMOqR2H7Dr/T8mbGzwckl2Cq2N/RpEHbHdD++Jr8ytBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=08a532929362b61052977d1efaba10ed"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>08a572929362b61052977d1efaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>0ca572929362b61052977d1efaba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_id>0ca572929362b61052977d1efaba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-22 12:37:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_08a532929362b61052977d1efaba10ed"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_08a532929362b61052977d1efaba10ed"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>9f243e9e9322b61052977d1efaba102f</sys_id>
+        <latest_snapshot>08a532929362b61052977d1efaba10ed</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch5-12-17-2025_01-05-2026_2218.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9f243e9e9322b61052977d1efaba102f^sys_idNOT IN48a572929362b61052977d1efaba107b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"48a572929362b61052977d1efaba107b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>9f243e9e9322b61052977d1efaba102f</plan_id>
+        <snapshot>370bbfa29326721052977d1efaba10f4</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-22 12:37:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48a572929362b61052977d1efaba107b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-23 12:19:24</sys_updated_on>
+        <trigger display_value="">b1fa7ba29326721052977d1efaba10d8</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9f243e9e9322b61052977d1efaba102f"/>
+</record_update>

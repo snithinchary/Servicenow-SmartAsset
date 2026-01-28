@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List">7ff373544303121093711347efb8f23c</macroponent>
+        <name>Audit Timeline</name>
+        <properties>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldF9hdWRpdDE3Njk1NzYxNjY1MjAyMTk2NzkyMy4yMTQwODY4Ng==","id":"ZEdGaWJHVjRYekV6TXpVek9UTmZjMjFoY25SZk1GOWhjM05sZEY5aGRXUnBkREUzTmprMU56WXhOalkxTWpBeU1UazJOemt5TXk0eU1UUXdPRFk0Tmc9PTE3Njk1NzYxNjY1MjE3Mzk1MjE4OC40NjMzMzk1Nw==","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"table":"x_1335393_smart_0_asset_audit","columns":"number,asset,action,action_date,notes,performed_by","dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"^ORDERBYDESCaction_date","id":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldF9hdWRpdDE3Njk1NzYxNjY1MjAyMTk2NzkyMy4yMTQwODY4Ng==","isDatabaseView":false,"label":null,"sourceType":"table","tableOrViewName":"x_1335393_smart_0_asset_audit"}],"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":false,"groupByField":"asset","groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzEzMzUzOTNfc21hcnRfMF9hc3NldF9hdWRpdDE3Njk1NzYxNjY1MjAyMTk2NzkyMy4yMTQwODY4Ng==","groupByField":"asset","isRange":false,"isPaBucket":false,"isChoice":false}]}],"hideDotwalk":false,"limit":10,"maxCharLimit":4000,"showColumnFiltering":true,"showColumnGrouping":true,"showColumnReorder":true,"showColumnResizing":true,"showColumnSorting":true,"showFilterIcon":false,"showHeader":true,"headerTitle":"Audit Timeline","showHeaderSeparator":false,"showInlineEditing":true,"showLinks":true,"showPersonalization":true,"showViewAll":true,"allowListPagination":true,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"showBorder":true,"wrapTitle":false,"showLoadingIndicator":false}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 12:22:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cde276578c4cc06b02221fa89494cd44</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Audit Timeline</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>par_visualization_cde276578c4cc06b02221fa89494cd44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 04:56:08</sys_updated_on>
+        <type>List</type>
+    </par_visualization>
+</record_update>

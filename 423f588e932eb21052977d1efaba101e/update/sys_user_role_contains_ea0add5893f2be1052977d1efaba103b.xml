@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="approval_admin" name="approval_admin">85805422c61122890157c76a4036958b</contains>
+        <role display_value="x_1335393_smart_0.u_asset_manager" name="x_1335393_smart_0.u_asset_manager">063f588e932eb21052977d1efaba1031</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-28 11:05:40</sys_created_on>
+        <sys_id>ea0add5893f2be1052977d1efaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_admin.x_1335393_smart_0.u_asset_manager</sys_name>
+        <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
+        <sys_update_name>sys_user_role_contains_ea0add5893f2be1052977d1efaba103b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-28 11:05:40</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

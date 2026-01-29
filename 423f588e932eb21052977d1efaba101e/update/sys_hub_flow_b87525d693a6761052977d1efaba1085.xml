@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=431913000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=534406000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,15 +15,15 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>smart_lifecycle_asset_creation</internal_name>
-        <label_cache>[{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record.number","label":"1 - Create Record➛Asset Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"number","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["notes"]}},{"name":"Updated_1.current.requested_for","label":"Trigger - Record Updated➛Asset Request Table Record➛Requested For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"requested_for","usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["assigned_to"],"af56e950-d34b-4c64-acf1-b0ee3a253c13":["performed_by"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record","label":"1 - Create Record➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["asset"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c51f94f-1e5b-4cf9-8cb6-33084ef9f75b.record.sys_id","label":"2 - Update Record➛Asset Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1335393_smart_0_asset","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["asset"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["values"]}},{"name":"Updated_1.current.asset_type","label":"Trigger - Record Updated➛Asset Request Table Record➛Asset Type","reference":"","reference_display":"Asset Type","type":"choice","base_type":"choice","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"asset_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Laptop","image":"","rawLabel":"Laptop","selected":false,"missing":false,"reference":false,"value":"Laptop","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Mobile","image":"","rawLabel":"Mobile","selected":false,"missing":false,"reference":false,"value":"Mobile","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Printer","image":"","rawLabel":"Printer","selected":false,"missing":false,"reference":false,"value":"Printer","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Monitor","image":"","rawLabel":"Monitor","selected":false,"missing":false,"reference":false,"value":"Monitor","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Tablet","image":"","rawLabel":"Tablet","selected":false,"missing":false,"reference":false,"value":"Tablet","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Keyboard","image":"","rawLabel":"Keyboard","selected":false,"missing":false,"reference":false,"value":"Keyboard","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}}],"usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["asset_type"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Request Table Record","reference":"x_1335393_smart_0_asset_request_table","reference_display":"Asset Request Table","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["record"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["record"]},"attributes":{"":""}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Request Table Record","reference":"x_1335393_smart_0_asset_request_table","reference_display":"Asset Request Table","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["record"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["record"]},"attributes":{"":""}},{"name":"Updated_1.current.asset_type","label":"Trigger - Record Updated➛Asset Request Table Record➛Asset Type","reference":"","reference_display":"Asset Type","type":"choice","base_type":"choice","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"asset_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Laptop","image":"","rawLabel":"Laptop","selected":false,"missing":false,"reference":false,"value":"Laptop","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Mobile","image":"","rawLabel":"Mobile","selected":false,"missing":false,"reference":false,"value":"Mobile","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Printer","image":"","rawLabel":"Printer","selected":false,"missing":false,"reference":false,"value":"Printer","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Monitor","image":"","rawLabel":"Monitor","selected":false,"missing":false,"reference":false,"value":"Monitor","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Tablet","image":"","rawLabel":"Tablet","selected":false,"missing":false,"reference":false,"value":"Tablet","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Keyboard","image":"","rawLabel":"Keyboard","selected":false,"missing":false,"reference":false,"value":"Keyboard","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}}],"usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["asset_type"]}},{"name":"4c51f94f-1e5b-4cf9-8cb6-33084ef9f75b.record.sys_id","label":"2 - Update Record➛Asset Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1335393_smart_0_asset","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["asset"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["values"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record","label":"1 - Create Record➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["asset"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.requested_for","label":"Trigger - Record Updated➛Asset Request Table Record➛Requested For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"requested_for","usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["assigned_to"],"af56e950-d34b-4c64-acf1-b0ee3a253c13":["performed_by"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record.number","label":"1 - Create Record➛Asset Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"number","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["notes"]}}]</label_cache>
         <master_snapshot>25092dde93a6761052977d1efaba10fe</master_snapshot>
         <master_snapshot_digest/>
         <name>Smart LifeCycle Asset Creation</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>c9159bb79362fa1052977d1efaba10eb</remote_trigger_id>
-        <run_as>user</run_as>
+        <remote_trigger_id>330c999c93f2be1052977d1efaba1048</remote_trigger_id>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b87525d693a6761052977d1efaba1085</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Smart LifeCycle Asset Creation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name>sys_hub_flow_b87525d693a6761052977d1efaba1085</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:21</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:30</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>5515dbb79362fa1052977d1efaba107f</version_record>
+        <version_record>441c999c93f2be1052977d1efaba10f4</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b87525d693a6761052977d1efaba1085"/>
     <sys_variable_value action="delete_multiple" query="document_key=b87525d693a6761052977d1efaba1085"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-01-27 06:46:16</sys_created_on>
+        <sys_created_on>2026-01-28 11:14:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c9159bb79362fa1052977d1efaba10eb</sys_id>
+        <sys_id>330c999c93f2be1052977d1efaba1048</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:30</sys_updated_on>
         <table>x_1335393_smart_0_asset_request_table</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -86,14 +86,14 @@
         <identifier>b87525d693a6761052977d1efaba1085</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-01-27 06:46:16</sys_created_on>
-        <sys_id>01159bb79362fa1052977d1efaba10ed</sys_id>
+        <sys_created_on>2026-01-28 11:14:30</sys_created_on>
+        <sys_id>770c999c93f2be1052977d1efaba1049</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
-        <trigger display_value="">c9159bb79362fa1052977d1efaba10eb</trigger>
+        <sys_updated_on>2026-01-28 11:14:30</sys_updated_on>
+        <trigger display_value="">330c999c93f2be1052977d1efaba1048</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b87525d693a6761052977d1efaba1085^sys_idNOT IN01159bb79362fa1052977d1efaba10ed"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b87525d693a6761052977d1efaba1085^sys_idNOT IN770c999c93f2be1052977d1efaba1049"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=b87525d693a6761052977d1efaba1085"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=b87525d693a6761052977d1efaba1085^sys_idNOT IN7c7525d693a6761052977d1efaba1086"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -401,10 +401,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 06:51:56</sys_created_on>
         <sys_id>0f66295a93a6761052977d1efaba10a8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>smartasset_user</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:48:19</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:16:02</sys_updated_on>
         <ui_id>4c51f94f-1e5b-4cf9-8cb6-33084ef9f75b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1W227bOBD9FUJPbWorkmXn4jwZSYNdoNsAdTYvdSFQ5MhmQV2WpNy4hv99hxcrbtoGKdCHFqgfbHE4MzxnOGfk99tI8GgajYEn6Xl6wrI0y0ZJMjobp8VJVqQjnlGANBpENa0APRWwRnFcr6nsrGG7hbNRUoyLbFhANhmOC14Mz05P02HJJ5Ql56OEjYrYx+12GMmFbiXd3IUEaGErIbmCOpq+/zCIWqrwLAMqmm4fbT0XrKQFSHR9t0f7GL3ZtHbNG9ZVUJtc7I1vQuRV2CF/X+EOBlk4aTKI4N5AzQGBlFRqGEQVrTk1jdpEU6M6NCig/KaWm95jJWrjiVb0XovPePI4sX4lIDMWitAv81Agby6vqKFzzMxMp/p6NYKB9jXhUNJOmstDm3e4aY1oah9iaCH30Y3sqvqtr0jUJzi4j04jCGgtT4vc0yrnq+bTuz3Ia1G7kgSKsmFU9itqjBJFZyycbQQSXI0r2raiXuatatbCBSOUKl5KXMSlbD7hmVos65gyizvGqtL4Gu1XznxHlbAk/sE0GLwbRHqjLyXV+oEK1jD/r7NIPLFAIXdVcCXIXSfYYKZEa2Z41BoC8N0gyCEZPdlh8NBQTgX6QA4IB0xu6HLRJUnGSz70BwH/uvOf9P0xTTwD8V4T1wIk19+gEDRhoEKQBnJP6UtZ3IZNchc2e2X8NGmkJ4n7/BHIryQQT9HbLOa+d+3iKdfo+GhRHx3NGNZeE4v2eObgEwufdBoZE7MCUvLcWZriIzATk7lLQKpOG6IA77YmlLiejInNeGM7j9RdVeCP0KQpS4REig15lRJRk9dKNYr8hS0o7RFz8EVzYNZUSEuWNK4DNAkdRboWgbUKodqYRRQvIkJL1N0eng2He4oqgCmiUUSvGmXwAhjxKt47xnjDyyWomHUKG8LEztHeoOOFp17YXIFZn8Uajxe1zSz445R5mucMNYTi9G+y8FqN8aLxFXbh4/qBYr9Hp7P5rX94JdCxK7RRL5LB5GVsmn9to1xSDS9eYmyAguEX2BuaroH3Lb/b9cOxmDw1atj5w2Q56KeHAXmfY9gkO89yXVEsSJK7Vvp6Os6C+ccG4TPQ7QfhrVP8t9HuZ+Fj25vDWPLWb4QZOPlpI/Dsdxp+gcZvP/2+96fgw/8sJ1b0JQsAAA==</values>
@@ -425,10 +425,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 06:48:28</sys_created_on>
         <sys_id>14a529d693a6761052977d1efaba109c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>smartasset_user</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:48:19</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:16:02</sys_updated_on>
         <ui_id>e820b4b3-be35-4bdb-8771-fd5ac0920c2b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VUTW/iMBD9K5XPUZSQFhVuqBWnbittu1y6xXLsCVhy4tR2KCziv+84cQDRot2V9gIn5s2H35uPvG6JFGRMhgKS0Sgd8izNskGSDG6v03yY5elAZAzSnESkYiVg5IqpBiza7R8EmLXgqNvU8LNJkkxstz9qwRwImsa8MQYqFx9idrs5GnJRod/p8xkG3vEZjxXaYJJ1zDW2i5+EAnMlC+AbroCiewEnXsadXAXQmQbm3V+kLqStFdvMLlcBX0ol8Bkyfn2LSM0MDseBIePtietvp6tYDgpDpxKUsF+M20tH20GJrXNAu/F3+ENIfgnOq1lwaiM8qTQisHZQCUA2BVMWIlKyCjumzYaMvbSIGGDiqVKbfcRSVg6LEh+7tvIXPp8Ok/bnowtAkRy6iL1Jw2w7uLhnjj1jfe4aE0L5UkuOktr2CChYo9zdMdYFPNVO6qpLcSxXfbZWTVk9ds0h+wL9KiHSWCQBtVfr+Xfiiuel/vjek5zKqu1LEKo0Z2pvMeeMzBvn6WwJKCixDi1ZXctqQWujV7JNRiplvFBoxIXSH/im35rY74yuYuwti6eI37fwjBnpRXzDMpi8i4jd2DuFi3yQgj2k741n0gkLEmjbhbYFtF0Kn8yNrN2kXc9AfBf1n5IUkpuzywbXh906qnn4nKwppt1ko4zakhlHE9qe3uernQT4H0/hz+z6U3hpp/412/4aTrGH49yrx84RriD5X1dwe0n7H2Rc/AGcW/u33zkOYvdDBwAA</values>
@@ -449,10 +449,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 07:00:47</sys_created_on>
         <sys_id>6c78ed1e93a6761052977d1efaba1013</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>smartasset_user</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:48:19</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:16:02</sys_updated_on>
         <ui_id>036d9bb6-6853-4d43-8abc-8c14f92e1378</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXW/iMBD8K8jPgJwEKPBWFSFV6rVS2+tL24scewOWnI+zHQqH+O+3SZyAaK+ipz5cpeMJj3c2M5sd5XFLpCBTQn1BvYk34oEXBD6l/njgRaMg8nwRMAAgXZKyBLByxVQBBs/VHwSUjIFvuILQWLaAp4LSQFymne8GfiBiC3MIIVFIkyu2efhbPl9KJTSkZPr43CU50yjMgibT7dHVqc4Ui0Bh6VyCEuYNq3aTl2cLCQq3ENbWa/zKke/dZefBXWZalKI8SrsE1hZSAagnZspAlyQsFcxmekOmVhcIaGDiJlWbtmIpU4ttSVm7NvIXCvBGtPqV1TGgTQ51RXsM3WxrOJ4xy+6wP7eFdqV8mUmOpqoBCYhZoezFIVYX3ORWZmlNsSxSDTtTRZJe1+MhbYPmVSJSGBQBeem21F+bi++W2cttI3Iu02oyzqjKOFPtiVmrZVTYUs6WgIIE+4QJy3OZLsJcZytZkVFK0l8oPPRjlb3gM41cpH3GS919nC3rzxGfVfAD07I08Q3bIHnXJWZjLhQzZm8FZxj+LEoltTFnIaymUI0grNaiJHMtc3uOj1pBK7wGUfRu13WhGsC7q+ftN00Dx3U5CNV2C2OfRoMo6EUQDHuDSES98dmZ14vFkHE68Sn3o37N2+1ep+rDOTlBbJOT20btsXqXE5HxonptUhyFZOZuOpezw4R8VkAG/6Px70WjjUM0fG/D+GS/UAc995FYh0gbBpMgNAnTNqQhigT7evXPHfyx/T9BXbP/99Vbf1tt86k4xq4OuZ3r+sIFYPhpARh/pQA4G18+AX/a++ffx5+eDV0JAAA=</values>
@@ -473,10 +473,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-27 05:49:39</sys_created_on>
         <sys_id>a318873b93eeba1052977d1efaba10b0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>smartasset_user</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:48:19</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:16:02</sys_updated_on>
         <ui_id>af56e950-d34b-4c64-acf1-b0ee3a253c13</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXW/bNhT9KwSftsxWJCtJE/fJSJptwNoAdZuXuhUo8cpmQVEqP5y4hv/7LknJcZsU24q9FKjeeL94zr2HV++2VHA6pWcZpKcX2VmVZ3k+SdPJ+UlWnuVlNuE5AzihI6pYAxhpWSmhCIcRXTPpvPG+wLTT/CIvTMO0LdKCGQO2YI4Li3FcmE6yzW0fPvNOMuud1UpIrkHR6bv3I9oxjbUtaDrdfuX6t0glK0Fi6BsP9RvI7aZ70vbXYS55FR2t5h5POqJwb0FxQCA1kwZGtGGKM9vqDZ1a7dCggfEbJTf7iJVQFgtSH3tvxGe89jz1cTUgswqib38s+l5Fc33FLJtj5co63YdWq1ZUYGJPONTMSXt5aIsBN50VrYopgWaf3UrXqFexJXRfYBgNWpxBENB5nh55T6Oer9q71wPKa6FCS3qnbCsm9ydmrRalsx7PloKEBgsVDes6oZZFp9u1CMmIpUmWEg9JLds7vNSIpUpY5YEn2FaWXKP9KphvmRaexUssg8m7ETUbcylRZw9csInFJ+eRRGY9hyK2wadUWnR2hhesoYe7Gw1PgEN68U1hZeWDkILqzYH8g9gXLk1zvt3C+SQtT8p8XEJ+Oj4peTk+f/YsG9f8lFXpxSStJmWioUJR7XYfItmYG5/FJSrIAv+ALOtWN8CLcjPUfttx7yuypHIaB2Gx0CfE4m0YvK9X+LCYVPNxZI0lVYsz+Q6ciXJNCViefAGRzF2FojO1k6j3R6/8Z1dCV/7jevtnFQ7r7VqA5OYJWQ67DRoch4UiyvSr/dY7yW3v7Hdc9n/tuOwsDd8PtOkiuR9+0R380x6tvEgx2jzmw+fkz08syIdweny0UEdHsyBv4hEfzwIF4ikQZ5A1sSsgNS+CpS0/QmUTMg8FSOOMJRpwvoowElSZEF/xxmuPxOdEhCFtXfsHVW7IbxkRirzQutXkD5Sh9FfMITYugFkzIcO/ug0qMKRXFXEdAus0QvU5C5osKGE1vrwBnk+He4bvAKaIRhOzarXFIVQkboMhMMEpL5eg9+slBPopBl5463Nfq2e2r+KNxwvlKzujY8mlSZZg3xrQf1798itG9EkY8Bwnadga+F6gOL2DxfV4PF8O8+d0vnc6fPgrKLgjv/tnirsI3ogGDkeEUU+MaLd7/zcXjsx2RAsAAA==</values>
@@ -497,10 +497,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 06:56:37</sys_created_on>
         <sys_id>ef77a11e93a6761052977d1efaba1012</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>smartasset_user</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:48:19</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:16:02</sys_updated_on>
         <ui_id>d3d684bd-99f3-4eee-ad1c-1c127f64ec79</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1TXU/bMBT9K5Wf2yhp0q7tG6JCmsRAKowXhizHvqGWnA9sB+ii/vfdxE7bdQyBxMOQlrf76XNO7rltiBRkQRIQYTSPpjyO4ngchuNZEqXTOI3GImYAERmSguWAnRp4qQXGj0zVbaJpvleCWRA0CnitNRR2u8W6kKZSbHPj2zDD11IJrJPF7d2QVEzjRguaLJqj0lshKZaCwtZVj+kYo91UbSxKXueIi8o+ee4nl74y+LrECg61cKJwSODZQiEAgWRMGRiSnBXIstQbsrC6xoQGJi4Ltdl1rGVhHdGcPRv5E19OwrYvA2TGvQi7kHqBXDpbMsuucDO3td7pVUoOxmkiIGO1sqeHOddwWVlZFm7EslT106Wq8+LCKUJ2Cw7+R20QBFQtzxa5o5VdrcunVQ/yTBadJJ6iKjlTu4hZq2Va2xZOQ0BBp3HOqkoW97TS5aPshhFKHtwrDIJMlU/4ppH3RcB4iztAVVlwhvlll75hWrYkvuEaHN4OidmYU8WM2VNBDelD3SJxxDwF2qnQSUC7S2iHuZaVPcGnHsED3w790YfjVy8M9gfV3bo5OHqEA/ZHHYaxaJqET6JsnmSjCCbpKOHZfDTj6XQUx+EsgWyefZmkgbvJAMngFb5kkI9Y+T6HvYF/77AzCUqYFwTxDrOQIxcL1An0u8mufXFw44s7n32Y0aJp2H3/7fbv2i2dvHZufL6/roOde8s9UxybxPOYmpxpS0PaOYZqeMBTtNT9iz9sddI2DVauaXDtm95nlDcg743SP/ASk94rx7nzw9nBhSt4j0w+zCKzz2QOT+PTu+Nvnrj7Ba1Cnjl5CQAA</values>
@@ -526,13 +526,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 08:19:40</sys_created_on>
         <sys_id>488ab156936a761052977d1efaba1005</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:14</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:27</sys_updated_on>
         <ui_id>9b4ea41f-4cb9-443c-9203-9dbd0bbc5e0c</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1YbU/jOBD+K6eIj9BL+kKh3xBcJU4HSNfClyuKXHtavOfG2cQpsBX/fWdiJ80L7C0s8OUqVVEyMxmP53lmxunG05mJM5NO9UmaymXkjf653fdkRDK833gRW4E38sIwNcxkaRh6+96aqYyEm5m3hiSVOpp5o5kXdPyZtz/zuF7FCh6u5l+Amwm/gxVDPRqPlb4/A1oGktH47OR0en51OZmeTK8n1oBrAbmr88jAEhLnTkBnbyFBiXDBOJjUGk8kLXPB4jEJ89c2s9nMy+T0MYa/2BwUPY7oUvibkUe8JMBEqCP1WFosmEqh1N/JyJSqUmo9l3LZcCpgwTJlwjw97bdVLaJT2mqhYtxgEkNIEp2EFpHS0CTZ1nDFIsGMTl6KWyfCBpTrgsp7D6GCaGnuSmXfp+sT/jDHK0hTtrS5n5hERss89U78q9l3Ht81+Wnd54rFMYhSu3l6GyoXLg8fDEz3x8D4JTSEzQ+qprNnMCc/hUuqs4TDuWhn4FUJOskT8tskbwbvn6ZMXkfya1aNM+CLwbAL8wM+OPYP+qzXP2BB7+ig7/MABod9/xi6lffb7LN9qDThOsyTRo2ttGk0o8IWFKwgMiGxC9kWxoleyyqQ2Oo6S4WizgJRCkUOU8emo4M7ZZ0tejcskWyeYxO/ohVZ4K7biWlY1KqjXUtRptRzdaTr2XlFAzkcNIiaAm5QyW+Mdj/WyYpZ/v05ubpsD4Zax8e7Pb4ubvK3vrA16ygWLTuVhrS3znVuwW3XesP7T084yYRMY8Ueb3YDjS67gbYbaG8DZjfQXkjTbqC1UrIbaB840PidVCKBKP92kwJnGgrdNxyFVvl6q1vjV1/KExkbKog16nPQCiHGgQG2PLp4f8UpmsQsQXcGEhTUN5B36bzukWOkrZQDLuaGIK75TL2inioVp0E1uP8Ipxl9Js/sCYGWRQ+yXDEvOdUKpEhQoTm1Oa8jYJrOcpJ6o2DfgwcDkQBRxlY2mFJC9XWF5VUKqCTsqkjqVH5D332f7BaAG+Fu5+Vj6A49BVpacriKKX9WYqimnVKrbBVd2uDpuGQ76802n05yVj9HoSJLcSGIaTMUnQt1MbnT938XkYxllO/bKZXmTJVPzCDL55mB1AKD8YdfMzKw6zrXoQ2byNlii52hdK6j0qhzx9bQJ1InLRasMacMo0mci7K0WrVmGg4de7rvyB7/f8ef2wYwtqcXwPiLYZcNWHcwD3pdP/DnhwEwvOkNjwI+7B9XgPuDiOTOE1v0av+fOQB1sURR/pT1d4Lw6PMgfF+kXJlW01Mv3BKY6rkH5fUTD+pfOuvkffitpxzvJzrRc52C+pMLFCJyJypDM2h/ieb9p9lSXhqUTe5O8eXfx7RswV8hhn5wNOS8dwjE38Fg0JsP+z4TfV8IwSv83YbXitfxdq61AhZ9DHE/Z3ItXHKebz+F9tNn2LPMuSWiWA6mFmwBXNKfFFOSnRf/1ZPiETGTvCq618m/RPKt7Ok7+k0p6/UXAAA=</values>
+        <values>H4sIAAAAAAAA/+1ZbU/jOBD+K6eIjzSXtCl9+YbgKnE6QLoWvmxR5NiT4j03ziZOga3638+OHTcvsLewwJerhKJ0ZjIez/PMjBO2Di9EWoh8wU/znK4SZ/rl7tihiZLJ+62ToDU4UycMc4FEkYehc+xsECuUcLt0NpDllCdLZ7p0fNdbOsdLB/N1yuDxOvoKWMzxPayR1EvjGeMP56CWgWw6Oz89W1xcX80Xp4ubuTbAnEDp6iIRsILMuCPgHsUUGAljhEHk2nhO1TKXKJ0pYfnYdrlcOgVdPKXwF4qAqZ9Tdan8LZVHeckAkZAn7MlaxIjlYPX3NBFWZaXas5XTllMCMSqYCMv0dJ9mjYjO1FYrFcJCJjGELONZqBGxhiIr9oZrlBAkePZS3DwjOqBS59eeewwZJCtxb5WBp647+SdzvIY8Ryud+7nIaLIqU2/Ev5p94/Fdk583fa5RmgKx2u3ubahcmjx8MDD9HwPjWWgUNj+oGvdIyJz8FC45LzIMF6SbgVcl6LRMyG/zshm8f5oKepPQb0U9Th/Hw1Efoh4eTrxegAZBD/mDcS/wsA/Dk8CbQL/2fJd9ug9ZE8zDMmmqsVmbVjOqbIHBGhIRKnZJtoVpxje0DqRsde6KSZEbS5RCUsLk6nS4cqfI3aN3izKKohKb9BWtSAN3001My6JRHd1aSgrGnqsj3szOKxrIybBF1BzkBhn9jtTuZzxbI82/P+fXV93B0Oj48u4Ib6qb8qmvaINchpKVW2tIR5tSZxbcd603PL/byUlGaJ4y9HR7GGjqchhoh4H2NmAOA+2FNB0GWiclh4H2gQMN31NGMkjKdzdK5EyTQvMOp0Krvb01reVbX44zmgpVEBupL0GrhDIOGWDHo4n3V5xKkxRl0p2ATAqaGyi7dFn3kmNKWysHuZgZgnLNZ+pV6lWlymlQD+4/wmlHX9BzfUJQy0oP1K5YlhzrBFIlqNKc6Zw3ERBtZyVJnal/7MCjgIQAsbHZBmMlqr6uZXlZgSoJvaokdU6/S9+Bp+xikBvBZuf2Z2gOPRVanGK4TlX+tESomjZKzop1cqWDV8cl3Vlv9/k0kvPmOUoqilwuBKnajIrOhBrP7/nD31UkM5qU+zZKxjFi9hcSkuVRISDXwMj4w2+FMtDrGtehDluRs8MWPUP1ua5+INhucwHpFzSJR3gYQy8C6PeCeIR6UeRDD08CfzhBBHuD8Z2rvnxAaj9/uMbRTjUJtc8GI3VlfiIh82rBBh9tGG06XtqC7VSwaDk0nOy/Iye9/x0r71rA6ElRAePFoz4aov4w8gd9z/eiEx+QvBmMxj4eBZMacH8oIplTyh69xlc5AyCvlqiaisr6O0E4/jwI3xcpU6b19DQL1wJTP01JefMcJfUvnaDK7v7Ws5PzE/3tuU6hup4JFBLljtRGsd99vy37T7ulvDR+29xdyId/n6llK/4SMvL88QjjwQko/g6Hw0E0CjxEAo8Qgmv83YfXidfwNuKcAUo+hrifMw9jk5zn20+l/fTJ+Cxz7hRRNAdzDTYBTNWnj4WSXVT/AVCKJ4kZxXXRA8/+USTfy3b/Ao1fBgxLGAAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -553,10 +553,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 08:19:40</sys_created_on>
         <sys_id>c88a7156936a761052977d1efaba10ff</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:14</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:27</sys_updated_on>
         <ui_id>407c221b-47c2-4e68-bc25-e28f69dd8261</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -649,14 +649,14 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>smart_lifecycle_asset_creation</internal_name>
-        <label_cache>[{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record.number","label":"1 - Create Record➛Asset Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"number","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["notes"]}},{"name":"Updated_1.current.requested_for","label":"Trigger - Record Updated➛Asset Request Table Record➛Requested For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"requested_for","usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["assigned_to"],"af56e950-d34b-4c64-acf1-b0ee3a253c13":["performed_by"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record","label":"1 - Create Record➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["asset"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c51f94f-1e5b-4cf9-8cb6-33084ef9f75b.record.sys_id","label":"2 - Update Record➛Asset Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1335393_smart_0_asset","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["asset"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["values"]}},{"name":"Updated_1.current.asset_type","label":"Trigger - Record Updated➛Asset Request Table Record➛Asset Type","reference":"","reference_display":"Asset Type","type":"choice","base_type":"choice","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"asset_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Laptop","image":"","rawLabel":"Laptop","selected":false,"missing":false,"reference":false,"value":"Laptop","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Mobile","image":"","rawLabel":"Mobile","selected":false,"missing":false,"reference":false,"value":"Mobile","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Printer","image":"","rawLabel":"Printer","selected":false,"missing":false,"reference":false,"value":"Printer","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Monitor","image":"","rawLabel":"Monitor","selected":false,"missing":false,"reference":false,"value":"Monitor","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Tablet","image":"","rawLabel":"Tablet","selected":false,"missing":false,"reference":false,"value":"Tablet","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Keyboard","image":"","rawLabel":"Keyboard","selected":false,"missing":false,"reference":false,"value":"Keyboard","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}}],"usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["asset_type"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Request Table Record","reference":"x_1335393_smart_0_asset_request_table","reference_display":"Asset Request Table","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["record"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["record"]},"attributes":{"":""}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Asset Request Table Record","reference":"x_1335393_smart_0_asset_request_table","reference_display":"Asset Request Table","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["record"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["record"]},"attributes":{"":""}},{"name":"Updated_1.current.asset_type","label":"Trigger - Record Updated➛Asset Request Table Record➛Asset Type","reference":"","reference_display":"Asset Type","type":"choice","base_type":"choice","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"asset_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"label":"Laptop","image":"","rawLabel":"Laptop","selected":false,"missing":false,"reference":false,"value":"Laptop","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Mobile","image":"","rawLabel":"Mobile","selected":false,"missing":false,"reference":false,"value":"Mobile","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Printer","image":"","rawLabel":"Printer","selected":false,"missing":false,"reference":false,"value":"Printer","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Monitor","image":"","rawLabel":"Monitor","selected":false,"missing":false,"reference":false,"value":"Monitor","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Tablet","image":"","rawLabel":"Tablet","selected":false,"missing":false,"reference":false,"value":"Tablet","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}},{"used":false,"label":"Keyboard","image":"","rawLabel":"Keyboard","selected":false,"missing":false,"reference":false,"value":"Keyboard","parameters":{"name":"x_1335393_smart_0_asset_request_table","dependent_values":[""]}}],"usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["asset_type"]}},{"name":"4c51f94f-1e5b-4cf9-8cb6-33084ef9f75b.record.sys_id","label":"2 - Update Record➛Asset Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1335393_smart_0_asset","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"d3d684bd-99f3-4eee-ad1c-1c127f64ec79":["asset"],"b962c92f-6fd8-46e1-9d54-ef9809b232a5":["values"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record","label":"1 - Create Record➛Asset Record","reference":"x_1335393_smart_0_asset","reference_display":"Asset","type":"reference","base_type":"reference","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["asset"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.requested_for","label":"Trigger - Record Updated➛Asset Request Table Record➛Requested For","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1335393_smart_0_asset_request_table","column_name":"requested_for","usedInstances":{"e820b4b3-be35-4bdb-8771-fd5ac0920c2b":["assigned_to"],"af56e950-d34b-4c64-acf1-b0ee3a253c13":["performed_by"]}},{"name":"e820b4b3-be35-4bdb-8771-fd5ac0920c2b.record.number","label":"1 - Create Record➛Asset Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1335393_smart_0_asset","column_name":"number","usedInstances":{"af56e950-d34b-4c64-acf1-b0ee3a253c13":["notes"]}}]</label_cache>
         <master>true</master>
         <name>Smart LifeCycle Asset Creation</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Smart LifeCycle Asset Creation">b87525d693a6761052977d1efaba1085</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -666,7 +666,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>25092dde93a6761052977d1efaba10fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -674,7 +674,7 @@
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:29</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -758,14 +758,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 07:03:18</sys_created_on>
         <sys_id>2d096dde93a6761052977d1efaba100d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -926,14 +926,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 07:03:18</sys_created_on>
         <sys_id>a9096dde93a6761052977d1efaba1028</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1112,10 +1112,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 12:30:50</sys_created_on>
         <sys_id>17f33a9e9322b61052977d1efaba100d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:29</sys_updated_on>
         <ui_id>9b4ea41f-4cb9-443c-9203-9dbd0bbc5e0c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1ZXW/iOBT9K6uoj5RN+Cgtb1W7SF1Ni7TQeVmqyNgO9YyxM7ZDyyD++9qxYxJCZ7cs1c5Kkaooudd27j3n3Ou4bAKeqTRTcsqvpSQLFgz/fGoFhBmbvt8EDCxxMAziWCqgMhnHQStYAZoZ42YWrLCQhLNZMJwFUTucBa1ZAPkypfh1PP+CoZrAZ7wE2q8Hjyh/ucXmNVgMR7fXN9O78cNkej19nNgBkCOcL3XHFF5g4ZZDuH2WEExRnACIlbSDJ8S85h6kI2PMp21ms1mQkek6xZ/AHFPzODSXYr2ZWVFfBAYo5oyu/YgEUIm9/5kw5V3ealf2drK3KMIJyKiKc3jqs2klohuTauECUGkQYywEF7FlxA9UItsNXAKGgOLirbi5QDag3BeV5r3GFLOFevbOXmiuW/2nMV5iKcHCYj9RgrBFDr0z/1v03YonBV9W11yCNMXIezfb41i5dzh8MDGdHxMTemoMNz+omvaZ0pj8I14kzwTEd6iOwLsAus4B+WWSN4PTw5SRR0a+ZeU4I5j0Bx08P4f9q/C8B7q9cxB1L897IYxw/6IXXuFOaX5dfbYP+SGQxzloprH5MXvNqBiLKV5ipmKjLq22OBV8RcpE6lbXXlBtaieapRjlNLUtHG2dKWjv2PsMBAHznJv0Ha3IEvdYB2ZvRKU66rXEMkoP1RGvovOOBnLR3xOqxDpBSr4Dk/2IiyWw+vt9Mn6obwyVjq/vzuCquMlnfQEr0KaALdqlhnS2yn3uhbuudcT87VbvZIjIlIL152ZDM5dmQ2s2tOOIaTa0N2BqNrQaJM2G9oEbGnwmFAnMymc3E5J2pUDoZ4WFXjTI+19eUZo9YygJTU9x24uedaAStN/UgO6z/iRY30q1RUJBUmUKbKUtuQgKo37jtpXvN4IB+omwr3ZKKXx9DM3IrV3UhKYHEB9VLnhaC5Ygu0zhubGZV3FQhxarJ54LJxhGrQC/KswQRj4HX/TeYjQ/1pL3BiNTG4sWmiTf9Rt7oRmXYJ0edAj5x9ihZ83JrS40TXIGVSZwgQwnEEsLjH0Yp4Ya61amEN1ITrMle7A5G2JsOywR4yy3NcYyqSPBqcnWhO9ySSbP/OWPItQRYTkwzkk5BNQ/AaWlOc+UCdQwLNfyhgIpd9HolONvmZliI3Evi20i24Oq2ba8ll2F/K2c7fZpPulMVVTFbcvnJ9O2LIKqSNuHuq/se49DDRh1YMFa6k7dnROqO2z0fay+n/bkXOniTatuWvVPKeWm7TZt93+i1SdHZZgMOqAPOv151O2EUTi/iDDQN93BZQQHvasS1b8Zebpz4Y7vyu8gjnJ74tijfFwYi+ZkeDoR6ZenJN2xdnNCIZyWb9dGykBXG4uHunwS1vbqGVj73zr95hvOsefe4CM+czEzL0Cl39qiej/MO+Z+g3vrO6KoAIQGYXQ5gLB7gU0F9Pv97nzQCwHqhQghWKqAXRC1qJzy55xTDNie9Kc6rl9HJqOPkf8Jd+dTiz9xWR9uhYX3v++Hb36Grpy2PT6QmH+HT43trvhV2DjWWhMElk0vXHw1xbOzbf8CXZklKl8eAAA=</values>
@@ -1139,10 +1139,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 12:30:50</sys_created_on>
         <sys_id>1bf33a9e9322b61052977d1efaba100b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
+        <sys_updated_on>2026-01-28 11:14:29</sys_updated_on>
         <ui_id>407c221b-47c2-4e68-bc25-e28f69dd8261</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1232,18 +1232,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"31096dde93a6761052977d1efaba10d8","name":"plan","plan_signature":null}}</plan>
         <plan_id>b87525d693a6761052977d1efaba1085</plan_id>
-        <snapshot>0b859ff79362fa1052977d1efaba1059</snapshot>
+        <snapshot>1a6cd9dc93f2be1052977d1efaba104d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-22 07:03:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31096dde93a6761052977d1efaba10d8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-27 06:46:16</sys_updated_on>
-        <trigger display_value="">c9159bb79362fa1052977d1efaba10eb</trigger>
+        <sys_updated_on>2026-01-28 11:14:30</sys_updated_on>
+        <trigger display_value="">330c999c93f2be1052977d1efaba1048</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b87525d693a6761052977d1efaba1085"/>
 </record_update>

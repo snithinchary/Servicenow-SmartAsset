@@ -13,7 +13,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>The Request IT Asset Record Producer lets users request IT assets like laptops, desktops, mobile devices, or software. Requests capture key details and are routed to the IT Asset Management team for approval and fulfillment.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -82,7 +82,7 @@
 * Use `producer.var1` to access variables
 */
 current.request_status="Requested";]]></script>
-        <short_description>Request IT Asset</short_description>
+        <short_description>Submit requests for IT assets (laptops, software, devices) for approval and fulfillment by IT Asset Management.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -90,14 +90,14 @@ current.request_status="Requested";]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-21 10:11:14</sys_created_on>
         <sys_id>b73a014a93a2f21052977d1efaba10c1</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Request IT Asset</sys_name>
         <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name>sc_cat_item_producer_b73a014a93a2f21052977d1efaba10c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-22 07:05:38</sys_updated_on>
+        <sys_updated_on>2026-01-29 09:23:31</sys_updated_on>
         <table_name>x_1335393_smart_0_asset_request_table</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +105,7 @@ current.request_status="Requested";]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>18</version>
+        <version>19</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

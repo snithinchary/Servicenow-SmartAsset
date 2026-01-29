@@ -2,7 +2,7 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <controlled_by_refs/>
@@ -11,20 +11,28 @@
         <local_or_existing>Existing</local_or_existing>
         <name>x_1335393_smart_0_asset_request_table</name>
         <operation display_value="write">write</operation>
-        <script/>
+        <script><![CDATA[if (current.isNewRecord()) {
+    answer = true; // allow form to load
+} else if (gs.hasRole('x_1335393_smart_0.u_asset_manager')) {
+    answer = true;
+} else if (current.requested_for == gs.getUserID() && current.request_status == "Requested") {
+    answer = true;
+}
+
+//x_1335393_smart_0.asset_request_table_user]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-01-21 09:59:40</sys_created_on>
         <sys_id>43c7cd8293a2f21052977d1efaba1010</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_1335393_smart_0_asset_request_table</sys_name>
         <sys_package display_value="Smart Asset Lifecycle Management" source="x_1335393_smart_0">423f588e932eb21052977d1efaba101e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Smart Asset Lifecycle Management">423f588e932eb21052977d1efaba101e</sys_scope>
         <sys_update_name>sys_security_acl_43c7cd8293a2f21052977d1efaba1010</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-21 09:59:40</sys_updated_on>
+        <sys_updated_on>2026-01-29 05:36:50</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

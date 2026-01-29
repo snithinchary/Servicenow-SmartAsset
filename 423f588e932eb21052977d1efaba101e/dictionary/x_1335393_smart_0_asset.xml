@@ -22,6 +22,7 @@
                 <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
             </choice>
         </element>
+        <element label="GitHub Test" max_length="40" name="github_test" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="New"/>
